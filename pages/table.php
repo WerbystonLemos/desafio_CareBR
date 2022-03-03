@@ -33,6 +33,7 @@
                             <th>Nome</th>
                             <th>Endereço (bairro + cidade + UF + cep + pais)</th>
                             <th>email</th>
+                            <th>CEP</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -52,6 +53,8 @@
             </div>
         </div>
     </div>
+
+    <!-- FOOTER [se der tempo] -->
 
     <!-- scripts -->
     <div>

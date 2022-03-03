@@ -10,7 +10,9 @@ function sendFile()
         dataType: 'json',
         processData: false,  
         contentType: false,
-        success: (res) => alert(res.responseText),
+        success: (res) => {
+            alert(res.responseText)
+        },
         error: (err) => console.log(JSON.stringify(err))
     })
 }

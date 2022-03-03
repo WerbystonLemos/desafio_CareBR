@@ -88,7 +88,28 @@
             </imposto>
         </det>
         <total>
-            <ICMSTot><vBC>5.00</vBC><vICMS>0.90</vICMS><vICMSDeson>0.00</vICMSDeson><vFCP>0.00</vFCP><vBCST>0.00</vBCST><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>5.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.03</vPIS><vCOFINS>0.15</vCOFINS><vOutro>0.00</vOutro><vNF>5.00</vNF><vTotTrib>1.08</vTotTrib></ICMSTot>
+            <ICMSTot>
+                <vBC>5.00</vBC>
+                <vICMS>0.90</vICMS>
+                <vICMSDeson>0.00</vICMSDeson>
+                <vFCP>0.00</vFCP>
+                <vBCST>0.00</vBCST>
+                <vST>0.00</vST>
+                <vFCPST>0.00</vFCPST>
+                <vFCPSTRet>0.00</vFCPSTRet>
+                <vProd>5.00</vProd>
+                <vFrete>0.00</vFrete>
+                <vSeg>0.00</vSeg>
+                <vDesc>0.00</vDesc>
+                <vII>0.00</vII>
+                <vIPI>0</vIPI>
+                <vIPIDevol>0.00</vIPIDevol>
+                <vPIS>0.03</vPIS>
+                <vCOFINS>0.15</vCOFINS>
+                <vOutro>0.00</vOutro>
+                <vNF>5.00</vNF>
+                <vTotTrib>1.08</vTotTrib>
+                </ICMSTot>
         </total>
         <transp><modFrete>9</modFrete></transp>
         <pag>
