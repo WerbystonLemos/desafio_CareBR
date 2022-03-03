@@ -11,3 +11,9 @@ sup
     justify-content: center;
     align-items: center;
 }
+#linkTabela
+{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 290px;/* 19vw;*/
+}

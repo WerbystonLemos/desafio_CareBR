@@ -18,16 +18,19 @@
     <div class="containerGeral content-fluid">
         <div id="containerForm" class="col-md-4">
         
-            <form>
+            <form id="formFile">
                 
                 <div class="mb-3">
                     <label for="inptFileXml" class="form-label">
                         <sup>*</sup>Upload Arquivo <b>(.xml)</b>
                     </label>
-                    <input type="file" class="form-control" id="inptFileXml">
+                    <input id="inptFileXml" name="inptFileXml" type="file" class="form-control" required>
                 </div>
                 
-                <button class="btn btn-success btn-small">Enviar</button>
+                <div class="mt-3">
+                    <button id="btnSubmitForm" type="button" class="btn btn-success btn-small" onclick="sendFile()">Enviar</button>
+                    <a id="linkTabela" href="./pages/table.php">>>>Registros<<<</a>
+                </div>
             
             </form>
         
