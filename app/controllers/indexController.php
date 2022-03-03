@@ -7,21 +7,27 @@ if ( $_FILES['inptFileXml']['tmp_name'] == "" )
     exit;
 }
 
-$pathFile = $_FILES['inptFileXml'];    
+$pathFile   = $_FILES['inptFileXml'];
+$xml        = simplexml_load_file($pathFile['tmp_name']);
 
-// echo "<pre>";
-// print_r( $pathFile ); 
-// echo "</pre>";
-// exit;
+// verifica se o emitente e permitido
+if ( $xml->infNFe->emit->CNPJ == "09066241000884" )
+{
+    echo json_encode(['responseText' => 'Emitente não permitido.']);
+    exit;
+}
 
-$xml = simplexml_load_file($pathFile['tmp_name']);
-
-// echo gettype($xml);
-// exit;
+// valida protocolo de autorização
+if (!isset($xml->protNFe->infProt->nProt))
+{
+    echo json_encode([ "responseText" =>"Sem protocolo de autenticação." ]);
+    exit;
+}
 
 foreach( $xml->children() as $item )
 {
     echo "<pre>";
-    var_dump($item);
+    echo($item->emit->CNPJ);
     echo "</pre>";
+    exit;
 }
