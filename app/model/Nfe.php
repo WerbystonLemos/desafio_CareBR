@@ -8,6 +8,5 @@ class Nfe
     {
         $con = new Conection();
         $con->save($data);
-        // echo json_encode(["response" => "Salvarei em BD seus dados"]);
     }
 }

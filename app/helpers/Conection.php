@@ -41,8 +41,6 @@ class Conection
         $UF     = $data['UF '];
         $cPais  = $data['cPais'];
         $vNF    = $data['vNF'];
-
-        // $res = $this->pdo->prepare("INSERT INTO nfs(cNF, dhEmi, CPF, xNome, email, CEP, bairro, xMun, UF, cPais, vNF) VALUES( $cNF, $dhEmi, $CPF, $xNome, $email, $CEP, $bairro, $xMun, $UF, $cPais, $vNF)");
         
         $res = $this->pdo->prepare("INSERT INTO nfs(cNF, dhEmi, CPF, xNome, email, CEP, bairro, xMun, UF, cPais, vNF) VALUES( :a, :b, :c, :d, :e, :f, :g, :h, :i, :j, :k)");
         $res->bindValue(":a", $cNF);
@@ -56,6 +54,7 @@ class Conection
         $res->bindValue(":i", $UF);
         $res->bindValue(":j", $cPais);
         $res->bindValue(":k", $vNF);
-        echo $res->execute();
+        $res->execute();
+        echo json_encode(['responseText' => "Salvo com sucesso!"]);
     }
 }
