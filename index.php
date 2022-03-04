@@ -24,7 +24,7 @@
                     <label for="inptFileXml" class="form-label">
                         <sup>*</sup>Upload Arquivo <b>(.xml)</b>
                     </label>
-                    <input id="inptFileXml" name="inptFileXml" type="file" class="form-control" required>
+                    <input id="inptFileXml" name="inptFileXml" type="file" class="form-control" accept=".xml" required>
                 </div>
                 
                 <div class="mt-3">

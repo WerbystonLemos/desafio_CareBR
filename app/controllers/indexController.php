@@ -8,6 +8,7 @@ $pathFile = $_FILES['inptFileXml'];
 $validate = new Validate();
 $nf       = new Nfe();
 
+$validate->validateExtension( $pathFile['type'] ); // VALIDA EXTENSAO DO ARQUIVO
 $validate->validateExist( $pathFile['tmp_name'] ); // VALIDA EXISTENCIA E VALIDADE DO ARQUIVO
 $xml      = simplexml_load_file($pathFile['tmp_name']);
 

@@ -2,16 +2,25 @@
 
 class Validate
 {
+    // VALIDA EXTENSAO DO ARQUIVO
+    public function validateExtension($fileType)
+    {
+        if ( $fileType != "text/xml" )
+        {
+            echo json_encode( ["responseText" => "Documento inválido."] );
+            exit;
+        }
+    }
+    
     // VALIDA EXISTENCIA E VALIDADE DO ARQUIVO
     public function validateExist($fileName)
     {
         if ( $fileName == "" )
         {
-            echo json_encode( ["responseText" => "Documento inválido ou vázio."] );
+            echo json_encode( ["responseText" => "Documento vázio."] );
             exit;
         }
     }
-
     
     // VERIFICA PERMISSAO DO EMITENTE
     public function validateEmitent($cpf)
