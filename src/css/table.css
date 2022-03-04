@@ -1,3 +1,23 @@
+body
+{
+    background: rgb(0,0,0);
+}    
+#containerTabela
+{
+    background: linear-gradient(  hsla(194, 87%, 47%, 0.5) , #fff, hsla(194, 87%, 47%, 0.5));
+    overflow-y: scroll;
+    height: 95vh;
+}
+div::-webkit-scrollbar
+{
+    border-radius: 8px;
+    /* background: #161616; */
+}
+div::-webkit-scrollbar-thumb
+{
+    background: hsla(194, 87%, 47%, 1);
+    border-radius: 8px;
+}
 .itemMenuHeader
 {
     text-decoration:none;

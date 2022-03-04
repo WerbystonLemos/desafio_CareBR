@@ -19,7 +19,7 @@
     </div>
 
     <!-- MAIN -->
-    <div class="container-fluid">
+    <div id="mainContainer" class="container-fluid">
         <div class="row">
             <div id="containerTabela" class="offset-md-1 col-md-10">
                 <table class="table table-stripped table-hover">
