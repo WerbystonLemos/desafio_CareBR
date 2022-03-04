@@ -31,5 +31,5 @@ $dados['bairro ']   = isset($xml->NFe->infNFe->dest->enderDest->xBairro) ? $xml-
 $dados['xMun ']     = isset($xml->NFe->infNFe->dest->enderDest->xMun) ? $xml->NFe->infNFe->dest->enderDest->xMun : ""  ;
 $dados['UF ']       = isset($xml->NFe->infNFe->dest->enderDest->UF) ? $xml->NFe->infNFe->dest->enderDest->UF : ""  ;
 $dados['cPais']     = isset($xml->NFe->infNFe->dest->enderDest->cPais) ? $xml->NFe->infNFe->dest->enderDest->cPais : ""  ;
-$dados['Valor NF']  = $xml->NFe->infNFe->total->ICMSTot->vNF;
+$dados['vNF']  = $xml->NFe->infNFe->total->ICMSTot->vNF;
 $nf->saveData($dados);
