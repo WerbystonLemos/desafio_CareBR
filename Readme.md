@@ -25,4 +25,4 @@ Esse repositporio tem o propósito de atender um desafio empresaria para vaga ca
 > - atentes em index.php o botão para visualizar os registros da tabela
 
 ### Caso queira contactar-me
-me chama no (Linkein)[https://linkedin.com/in/werbyston-lemos] ou (GitHub)[https://github.com/WerbystonLemos]
+me chama no [Linkein](https://linkedin.com/in/werbyston-lemos) ou [GitHub](https://github.com/WerbystonLemos)
