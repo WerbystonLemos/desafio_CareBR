@@ -20,10 +20,12 @@ class Conection
         }
     }
 
-    public function getData()
+    public function all()
     {
+        $this->toConect();
         $res = $this->pdo->prepare("SELECT id, cNF, dhEmi, CPF, xNome, email, CEP, bairro, xMun, UF, cPais, vNF FROM nfs");
-        return $res->execute();
+        $res->execute();
+        return  json_encode($res->fetchAll());
     }
     
     public function save($data)

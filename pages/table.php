@@ -31,24 +31,13 @@
                             <th>Valor NF</th>
                             <th>CPF</th>
                             <th>Nome</th>
-                            <th>Endereço (bairro + cidade + UF + cep + pais)</th>
+                            <th>Endereço</th>
+                            <th>cod País</th>
                             <th>email</th>
                             <th>CEP</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>NF-123123</td>
-                            <td>12/12/1212</td>
-                            <td>R$123,00</td>
-                            <td>13212312300</td>
-                            <td>Empresa LTDA</td>
-                            <td>Rua zeta, 56. Maranguape-CE</td>
-                            <td>Brasil</td>
-                            <td>61944110</td>
-                        </tr>
-                    </tbody>
+                    <tbody></tbody>
                 </table>
             </div>
         </div>

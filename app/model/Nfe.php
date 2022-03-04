@@ -9,4 +9,10 @@ class Nfe
         $con = new Conection();
         $con->save($data);
     }
+
+    public function getAllData()
+    {
+        $con = new Conection();
+        return $con->all();
+    }
 }
