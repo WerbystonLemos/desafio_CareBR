@@ -1,3 +1,14 @@
+body
+{
+    background: rgb(0,0,0);
+}    
+#containerForm
+{
+    background: linear-gradient(  hsla(194, 87%, 47%, 0.3) , #fff, hsla(194, 87%, 47%, 0.3));
+    height: 80vh;
+    padding: 30vh 10px;
+    border-radius: 50px;
+}
 sup
 {
     color: red;
@@ -15,5 +26,4 @@ sup
 {
     text-decoration: none;
     font-weight: bold;
-    margin-left: 290px;/* 19vw;*/
 }

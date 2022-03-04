@@ -28,8 +28,14 @@
                 </div>
                 
                 <div class="mt-3">
-                    <button id="btnSubmitForm" type="button" class="btn btn-success btn-small" onclick="sendFile()">Enviar</button>
-                    <a id="linkTabela" href="./pages/table.php">>>>Registros<<<</a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button id="btnSubmitForm" type="button" class="btn btn-primary btn-small" onclick="sendFile()">Enviar</button>
+                        </div>
+                        <div class="col-md-6">
+                            <a id="linkTabela" href="./pages/table.php">>>>Registros<<<</a>
+                        </div>
+                    </div>
                 </div>
             
             </form>
